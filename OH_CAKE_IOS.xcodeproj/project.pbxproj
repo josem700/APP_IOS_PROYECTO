@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A05491C27E25D6300D9EB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A05491B27E25D6300D9EB71 /* AppDelegate.swift */; };
+		4A05491E27E25D6300D9EB71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A05491D27E25D6300D9EB71 /* SceneDelegate.swift */; };
+		4A05492027E25D6300D9EB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A05491F27E25D6300D9EB71 /* ViewController.swift */; };
+		4A05492327E25D6300D9EB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A05492127E25D6300D9EB71 /* Main.storyboard */; };
+		4A05492527E25D6800D9EB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A05492427E25D6800D9EB71 /* Assets.xcassets */; };
+		4A05492827E25D6800D9EB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A05492627E25D6800D9EB71 /* LaunchScreen.storyboard */; };
+		4A0C3FA4282C18E500ED6C74 /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C3FA3282C18E500ED6C74 /* Step4ViewController.swift */; };
+		4A621B31284E572400F36BCC /* Kanit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B1E284E572400F36BCC /* Kanit-Light.ttf */; };
+		4A621B32284E572400F36BCC /* Kanit-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B1F284E572400F36BCC /* Kanit-LightItalic.ttf */; };
+		4A621B33284E572400F36BCC /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B20284E572400F36BCC /* Kanit-Regular.ttf */; };
+		4A621B34284E572400F36BCC /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B21284E572400F36BCC /* Kanit-SemiBold.ttf */; };
+		4A621B35284E572400F36BCC /* Kanit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B22284E572400F36BCC /* Kanit-ExtraBold.ttf */; };
+		4A621B36284E572400F36BCC /* Kanit-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B23284E572400F36BCC /* Kanit-Italic.ttf */; };
+		4A621B37284E572400F36BCC /* Kanit-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B24284E572400F36BCC /* Kanit-ThinItalic.ttf */; };
+		4A621B38284E572400F36BCC /* Kanit-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B25284E572400F36BCC /* Kanit-ExtraBoldItalic.ttf */; };
+		4A621B39284E572400F36BCC /* Kanit-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B26284E572400F36BCC /* Kanit-MediumItalic.ttf */; };
+		4A621B3A284E572400F36BCC /* Kanit-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B27284E572400F36BCC /* Kanit-SemiBoldItalic.ttf */; };
+		4A621B3B284E572400F36BCC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B28284E572400F36BCC /* OFL.txt */; };
+		4A621B3C284E572400F36BCC /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B29284E572400F36BCC /* Kanit-Bold.ttf */; };
+		4A621B3D284E572400F36BCC /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B2A284E572400F36BCC /* Kanit-Black.ttf */; };
+		4A621B3E284E572400F36BCC /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B2B284E572400F36BCC /* Kanit-Medium.ttf */; };
+		4A621B3F284E572400F36BCC /* Kanit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B2C284E572400F36BCC /* Kanit-ExtraLight.ttf */; };
+		4A621B40284E572400F36BCC /* Kanit-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B2D284E572400F36BCC /* Kanit-BlackItalic.ttf */; };
+		4A621B41284E572400F36BCC /* Kanit-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B2E284E572400F36BCC /* Kanit-ExtraLightItalic.ttf */; };
+		4A621B42284E572400F36BCC /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B2F284E572400F36BCC /* Kanit-Thin.ttf */; };
+		4A621B43284E572400F36BCC /* Kanit-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A621B30284E572400F36BCC /* Kanit-BoldItalic.ttf */; };
+		F2E79924403B7E7650104974 /* Pods_OH_CAKE_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB15E757EDD99E2A8D6066 /* Pods_OH_CAKE_IOS.framework */; };
+		F4176AA02851EB8F0008A9BD /* Custom_PedidoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4176A9F2851EB8F0008A9BD /* Custom_PedidoCell.swift */; };
+		F42BEA502816A62F009E626C /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BEA4F2816A62F009E626C /* Step1ViewController.swift */; };
+		F44A6C99282262BB00B4C67D /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A6C98282262BB00B4C67D /* MapaViewController.swift */; };
+		F44A6C9B282264FC00B4C67D /* ArtWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A6C9A282264FC00B4C67D /* ArtWork.swift */; };
+		F44AC5D128326E6200F44F75 /* FinalStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AC5D028326E6200F44F75 /* FinalStepViewController.swift */; };
+		F46B0727284DF97500AB41C4 /* AllergenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B0726284DF97500AB41C4 /* AllergenCell.swift */; };
+		F476046D2833B9A6005FCE32 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F476046C2833B9A6005FCE32 /* SelectionViewController.swift */; };
+		F47CB6F3282900DB002CA287 /* CategoriasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47CB6F2282900DB002CA287 /* CategoriasCell.swift */; };
+		F4863CF1283F7181008E70B5 /* PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4863CF0283F7181008E70B5 /* PedidosViewController.swift */; };
+		F4863CF3283F71A2008E70B5 /* PedidosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4863CF2283F71A2008E70B5 /* PedidosCell.swift */; };
+		F4863CF6283F9B03008E70B5 /* TartasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4863CF5283F9B03008E70B5 /* TartasViewController.swift */; };
+		F4863CF8283F9BAF008E70B5 /* TartasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4863CF7283F9BAF008E70B5 /* TartasCell.swift */; };
+		F486F3A628251549006DD483 /* CategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F486F3A528251549006DD483 /* CategoriasViewController.swift */; };
+		F4889DB3284A008F00E316C6 /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4889DB2284A008F00E316C6 /* CarritoViewController.swift */; };
+		F4889DB5284A016C00E316C6 /* ProductoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4889DB4284A016C00E316C6 /* ProductoCell.swift */; };
+		F48BB7EA28475C48008AF047 /* TartaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48BB7E928475C48008AF047 /* TartaCell.swift */; };
+		F49F963C2816876B00DE5880 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F963B2816876B00DE5880 /* RegistroViewController.swift */; };
+		F4A1506E2846200A001929B7 /* UnaTartaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A1506D2846200A001929B7 /* UnaTartaViewController.swift */; };
+		F4A25B1C2833B30300C38BBE /* LogedUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A25B1B2833B30300C38BBE /* LogedUserViewController.swift */; };
+		F4A25B1E2833B34800C38BBE /* TABBARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A25B1D2833B34800C38BBE /* TABBARViewController.swift */; };
+		F4A4FEDB27FF0C2C006B7DCD /* OfertasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4FEDA27FF0C2C006B7DCD /* OfertasCell.swift */; };
+		F4A4FEDD27FF0C43006B7DCD /* MejoresCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4FEDC27FF0C43006B7DCD /* MejoresCell.swift */; };
+		F4BC1E79284F447D00CCB5CD /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC1E78284F447D00CCB5CD /* BaseCell.swift */; };
+		F4BC1E7B284F580B00CCB5CD /* RellenoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC1E7A284F580B00CCB5CD /* RellenoCell.swift */; };
+		F4BC1E7D284F6A8300CCB5CD /* IngredientesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC1E7C284F6A8300CCB5CD /* IngredientesCell.swift */; };
+		F4CC12EA283CF4220006D948 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC12E9283CF4220006D948 /* ContactoViewController.swift */; };
+		F4E68781282CF5D50071D3A2 /* Step5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E68780282CF5D50071D3A2 /* Step5ViewController.swift */; };
+		F4EA0E63282A55C200E9E71A /* Step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA0E62282A55C200E9E71A /* Step2ViewController.swift */; };
+		F4EA0E66282A573400E9E71A /* FormaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA0E65282A573400E9E71A /* FormaCell.swift */; };
+		F4EA0E69282A937D00E9E71A /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA0E68282A937D00E9E71A /* Step3ViewController.swift */; };
+		F4F6835628129D0500A2F67D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F6835528129D0500A2F67D /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A45E3760059D57723B8748A /* Pods-OH_CAKE_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OH_CAKE_IOS.debug.xcconfig"; path = "Target Support Files/Pods-OH_CAKE_IOS/Pods-OH_CAKE_IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4A05491827E25D6300D9EB71 /* OH_CAKE_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OH_CAKE_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A05491B27E25D6300D9EB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A05491D27E25D6300D9EB71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A05491F27E25D6300D9EB71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A05492227E25D6300D9EB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A05492427E25D6800D9EB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A05492727E25D6800D9EB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A05492927E25D6800D9EB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0C3FA3282C18E500ED6C74 /* Step4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4ViewController.swift; sourceTree = "<group>"; };
+		4A621B1E284E572400F36BCC /* Kanit-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Light.ttf"; sourceTree = "<group>"; };
+		4A621B1F284E572400F36BCC /* Kanit-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-LightItalic.ttf"; sourceTree = "<group>"; };
+		4A621B20284E572400F36BCC /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		4A621B21284E572400F36BCC /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
+		4A621B22284E572400F36BCC /* Kanit-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4A621B23284E572400F36BCC /* Kanit-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Italic.ttf"; sourceTree = "<group>"; };
+		4A621B24284E572400F36BCC /* Kanit-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4A621B25284E572400F36BCC /* Kanit-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4A621B26284E572400F36BCC /* Kanit-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4A621B27284E572400F36BCC /* Kanit-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4A621B28284E572400F36BCC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4A621B29284E572400F36BCC /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		4A621B2A284E572400F36BCC /* Kanit-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Black.ttf"; sourceTree = "<group>"; };
+		4A621B2B284E572400F36BCC /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		4A621B2C284E572400F36BCC /* Kanit-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4A621B2D284E572400F36BCC /* Kanit-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4A621B2E284E572400F36BCC /* Kanit-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4A621B2F284E572400F36BCC /* Kanit-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Thin.ttf"; sourceTree = "<group>"; };
+		4A621B30284E572400F36BCC /* Kanit-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A8CB15E757EDD99E2A8D6066 /* Pods_OH_CAKE_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OH_CAKE_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B899825D28F01247DDD2317A /* Pods-OH_CAKE_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OH_CAKE_IOS.release.xcconfig"; path = "Target Support Files/Pods-OH_CAKE_IOS/Pods-OH_CAKE_IOS.release.xcconfig"; sourceTree = "<group>"; };
+		F4176A9F2851EB8F0008A9BD /* Custom_PedidoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_PedidoCell.swift; sourceTree = "<group>"; };
+		F42BEA4F2816A62F009E626C /* Step1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
+		F44A6C98282262BB00B4C67D /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		F44A6C9A282264FC00B4C67D /* ArtWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtWork.swift; sourceTree = "<group>"; };
+		F44AC5D028326E6200F44F75 /* FinalStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalStepViewController.swift; sourceTree = "<group>"; };
+		F46B0726284DF97500AB41C4 /* AllergenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergenCell.swift; sourceTree = "<group>"; };
+		F476046C2833B9A6005FCE32 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		F47CB6F2282900DB002CA287 /* CategoriasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasCell.swift; sourceTree = "<group>"; };
+		F4863CF0283F7181008E70B5 /* PedidosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosViewController.swift; sourceTree = "<group>"; };
+		F4863CF2283F71A2008E70B5 /* PedidosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosCell.swift; sourceTree = "<group>"; };
+		F4863CF5283F9B03008E70B5 /* TartasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TartasViewController.swift; sourceTree = "<group>"; };
+		F4863CF7283F9BAF008E70B5 /* TartasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TartasCell.swift; sourceTree = "<group>"; };
+		F486F3A528251549006DD483 /* CategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasViewController.swift; sourceTree = "<group>"; };
+		F4889DB2284A008F00E316C6 /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
+		F4889DB4284A016C00E316C6 /* ProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCell.swift; sourceTree = "<group>"; };
+		F48BB7E928475C48008AF047 /* TartaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TartaCell.swift; sourceTree = "<group>"; };
+		F49F963B2816876B00DE5880 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		F4A1506D2846200A001929B7 /* UnaTartaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnaTartaViewController.swift; sourceTree = "<group>"; };
+		F4A25B1B2833B30300C38BBE /* LogedUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogedUserViewController.swift; sourceTree = "<group>"; };
+		F4A25B1D2833B34800C38BBE /* TABBARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABBARViewController.swift; sourceTree = "<group>"; };
+		F4A4FEDA27FF0C2C006B7DCD /* OfertasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertasCell.swift; sourceTree = "<group>"; };
+		F4A4FEDC27FF0C43006B7DCD /* MejoresCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MejoresCell.swift; sourceTree = "<group>"; };
+		F4BC1E78284F447D00CCB5CD /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		F4BC1E7A284F580B00CCB5CD /* RellenoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RellenoCell.swift; sourceTree = "<group>"; };
+		F4BC1E7C284F6A8300CCB5CD /* IngredientesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientesCell.swift; sourceTree = "<group>"; };
+		F4CC12E9283CF4220006D948 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
+		F4E68780282CF5D50071D3A2 /* Step5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step5ViewController.swift; sourceTree = "<group>"; };
+		F4EA0E62282A55C200E9E71A /* Step2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2ViewController.swift; sourceTree = "<group>"; };
+		F4EA0E65282A573400E9E71A /* FormaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormaCell.swift; sourceTree = "<group>"; };
+		F4EA0E68282A937D00E9E71A /* Step3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
+		F4F6835528129D0500A2F67D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A05491527E25D6300D9EB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E79924403B7E7650104974 /* Pods_OH_CAKE_IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C6A82D6562D1D40885BE6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A45E3760059D57723B8748A /* Pods-OH_CAKE_IOS.debug.xcconfig */,
+				B899825D28F01247DDD2317A /* Pods-OH_CAKE_IOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A05490F27E25D6300D9EB71 = {
+			isa = PBXGroup;
+			children = (
+				4A05491A27E25D6300D9EB71 /* OH_CAKE_IOS */,
+				4A05491927E25D6300D9EB71 /* Products */,
+				04C6A82D6562D1D40885BE6F /* Pods */,
+				AD6402DB36D3DEB56F97CA05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A05491927E25D6300D9EB71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A05491827E25D6300D9EB71 /* OH_CAKE_IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A05491A27E25D6300D9EB71 /* OH_CAKE_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				4A05491B27E25D6300D9EB71 /* AppDelegate.swift */,
+				4A05491D27E25D6300D9EB71 /* SceneDelegate.swift */,
+				4A05491F27E25D6300D9EB71 /* ViewController.swift */,
+				F44A6C98282262BB00B4C67D /* MapaViewController.swift */,
+				F4A25B1D2833B34800C38BBE /* TABBARViewController.swift */,
+				4A621B1D284E571200F36BCC /* Fuente */,
+				F4A25B1B2833B30300C38BBE /* LogedUserViewController.swift */,
+				F4889DB1284A006F00E316C6 /* Carrito */,
+				F4CC12E8283CF4030006D948 /* Funciones Usuario */,
+				F44A6C972822626500B4C67D /* Login */,
+				F42BEA4E2816A5A6009E626C /* Tarta_Custom */,
+				F4A4FED927FF0C06006B7DCD /* Collections */,
+				4A05492127E25D6300D9EB71 /* Main.storyboard */,
+				4A05492427E25D6800D9EB71 /* Assets.xcassets */,
+				F44A6C9D2822650D00B4C67D /* OtherStuff */,
+				4A05492627E25D6800D9EB71 /* LaunchScreen.storyboard */,
+				4A05492927E25D6800D9EB71 /* Info.plist */,
+			);
+			path = OH_CAKE_IOS;
+			sourceTree = "<group>";
+		};
+		4A621B1D284E571200F36BCC /* Fuente */ = {
+			isa = PBXGroup;
+			children = (
+				4A621B2A284E572400F36BCC /* Kanit-Black.ttf */,
+				4A621B2D284E572400F36BCC /* Kanit-BlackItalic.ttf */,
+				4A621B29284E572400F36BCC /* Kanit-Bold.ttf */,
+				4A621B30284E572400F36BCC /* Kanit-BoldItalic.ttf */,
+				4A621B22284E572400F36BCC /* Kanit-ExtraBold.ttf */,
+				4A621B25284E572400F36BCC /* Kanit-ExtraBoldItalic.ttf */,
+				4A621B2C284E572400F36BCC /* Kanit-ExtraLight.ttf */,
+				4A621B2E284E572400F36BCC /* Kanit-ExtraLightItalic.ttf */,
+				4A621B23284E572400F36BCC /* Kanit-Italic.ttf */,
+				4A621B1E284E572400F36BCC /* Kanit-Light.ttf */,
+				4A621B1F284E572400F36BCC /* Kanit-LightItalic.ttf */,
+				4A621B2B284E572400F36BCC /* Kanit-Medium.ttf */,
+				4A621B26284E572400F36BCC /* Kanit-MediumItalic.ttf */,
+				4A621B20284E572400F36BCC /* Kanit-Regular.ttf */,
+				4A621B21284E572400F36BCC /* Kanit-SemiBold.ttf */,
+				4A621B27284E572400F36BCC /* Kanit-SemiBoldItalic.ttf */,
+				4A621B2F284E572400F36BCC /* Kanit-Thin.ttf */,
+				4A621B24284E572400F36BCC /* Kanit-ThinItalic.ttf */,
+				4A621B28284E572400F36BCC /* OFL.txt */,
+			);
+			path = Fuente;
+			sourceTree = "<group>";
+		};
+		AD6402DB36D3DEB56F97CA05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB15E757EDD99E2A8D6066 /* Pods_OH_CAKE_IOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F42BEA4E2816A5A6009E626C /* Tarta_Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA0E64282A571A00E9E71A /* celdas */,
+				F42BEA4F2816A62F009E626C /* Step1ViewController.swift */,
+				F4EA0E62282A55C200E9E71A /* Step2ViewController.swift */,
+				F4EA0E68282A937D00E9E71A /* Step3ViewController.swift */,
+				4A0C3FA3282C18E500ED6C74 /* Step4ViewController.swift */,
+				F4E68780282CF5D50071D3A2 /* Step5ViewController.swift */,
+				F44AC5D028326E6200F44F75 /* FinalStepViewController.swift */,
+			);
+			path = Tarta_Custom;
+			sourceTree = "<group>";
+		};
+		F44A6C972822626500B4C67D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F4F6835528129D0500A2F67D /* LoginViewController.swift */,
+				F49F963B2816876B00DE5880 /* RegistroViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F44A6C9D2822650D00B4C67D /* OtherStuff */ = {
+			isa = PBXGroup;
+			children = (
+				F44A6C9A282264FC00B4C67D /* ArtWork.swift */,
+				F476046C2833B9A6005FCE32 /* SelectionViewController.swift */,
+			);
+			path = OtherStuff;
+			sourceTree = "<group>";
+		};
+		F4863CEF283F7105008E70B5 /* Mis Pedidos */ = {
+			isa = PBXGroup;
+			children = (
+				F4863CF0283F7181008E70B5 /* PedidosViewController.swift */,
+				F4863CF2283F71A2008E70B5 /* PedidosCell.swift */,
+				F4176A9F2851EB8F0008A9BD /* Custom_PedidoCell.swift */,
+			);
+			path = "Mis Pedidos";
+			sourceTree = "<group>";
+		};
+		F4863CF4283F9A02008E70B5 /* Tartas */ = {
+			isa = PBXGroup;
+			children = (
+				F4863CF5283F9B03008E70B5 /* TartasViewController.swift */,
+				F4863CF7283F9BAF008E70B5 /* TartasCell.swift */,
+				F4A1506D2846200A001929B7 /* UnaTartaViewController.swift */,
+				F48BB7E928475C48008AF047 /* TartaCell.swift */,
+				F46B0726284DF97500AB41C4 /* AllergenCell.swift */,
+			);
+			path = Tartas;
+			sourceTree = "<group>";
+		};
+		F486F3A328251514006DD483 /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4FEDA27FF0C2C006B7DCD /* OfertasCell.swift */,
+				F4A4FEDC27FF0C43006B7DCD /* MejoresCell.swift */,
+			);
+			path = Principal;
+			sourceTree = "<group>";
+		};
+		F486F3A42825152E006DD483 /* Categorias */ = {
+			isa = PBXGroup;
+			children = (
+				F486F3A528251549006DD483 /* CategoriasViewController.swift */,
+				F47CB6F2282900DB002CA287 /* CategoriasCell.swift */,
+			);
+			path = Categorias;
+			sourceTree = "<group>";
+		};
+		F4889DB1284A006F00E316C6 /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				F4889DB2284A008F00E316C6 /* CarritoViewController.swift */,
+				F4889DB4284A016C00E316C6 /* ProductoCell.swift */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		F4A4FED927FF0C06006B7DCD /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				F4863CF4283F9A02008E70B5 /* Tartas */,
+				F486F3A42825152E006DD483 /* Categorias */,
+				F486F3A328251514006DD483 /* Principal */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		F4CC12E8283CF4030006D948 /* Funciones Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				F4863CEF283F7105008E70B5 /* Mis Pedidos */,
+				F4CC12E9283CF4220006D948 /* ContactoViewController.swift */,
+			);
+			path = "Funciones Usuario";
+			sourceTree = "<group>";
+		};
+		F4EA0E64282A571A00E9E71A /* celdas */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA0E65282A573400E9E71A /* FormaCell.swift */,
+				F4BC1E78284F447D00CCB5CD /* BaseCell.swift */,
+				F4BC1E7A284F580B00CCB5CD /* RellenoCell.swift */,
+				F4BC1E7C284F6A8300CCB5CD /* IngredientesCell.swift */,
+			);
+			path = celdas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A05491727E25D6300D9EB71 /* OH_CAKE_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A05492C27E25D6800D9EB71 /* Build configuration list for PBXNativeTarget "OH_CAKE_IOS" */;
+			buildPhases = (
+				F953756D60A09B953705FE86 /* [CP] Check Pods Manifest.lock */,
+				4A05491427E25D6300D9EB71 /* Sources */,
+				4A05491527E25D6300D9EB71 /* Frameworks */,
+				4A05491627E25D6300D9EB71 /* Resources */,
+				7F7FCFCB39978B24DD63F5A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OH_CAKE_IOS;
+			productName = OH_CAKE_IOS;
+			productReference = 4A05491827E25D6300D9EB71 /* OH_CAKE_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A05491027E25D6300D9EB71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4A05491727E25D6300D9EB71 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A05491327E25D6300D9EB71 /* Build configuration list for PBXProject "OH_CAKE_IOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A05490F27E25D6300D9EB71;
+			productRefGroup = 4A05491927E25D6300D9EB71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A05491727E25D6300D9EB71 /* OH_CAKE_IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A05491627E25D6300D9EB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A621B41284E572400F36BCC /* Kanit-ExtraLightItalic.ttf in Resources */,
+				4A621B3B284E572400F36BCC /* OFL.txt in Resources */,
+				4A621B35284E572400F36BCC /* Kanit-ExtraBold.ttf in Resources */,
+				4A621B39284E572400F36BCC /* Kanit-MediumItalic.ttf in Resources */,
+				4A621B37284E572400F36BCC /* Kanit-ThinItalic.ttf in Resources */,
+				4A05492827E25D6800D9EB71 /* LaunchScreen.storyboard in Resources */,
+				4A621B40284E572400F36BCC /* Kanit-BlackItalic.ttf in Resources */,
+				4A05492527E25D6800D9EB71 /* Assets.xcassets in Resources */,
+				4A05492327E25D6300D9EB71 /* Main.storyboard in Resources */,
+				4A621B3E284E572400F36BCC /* Kanit-Medium.ttf in Resources */,
+				4A621B32284E572400F36BCC /* Kanit-LightItalic.ttf in Resources */,
+				4A621B42284E572400F36BCC /* Kanit-Thin.ttf in Resources */,
+				4A621B34284E572400F36BCC /* Kanit-SemiBold.ttf in Resources */,
+				4A621B43284E572400F36BCC /* Kanit-BoldItalic.ttf in Resources */,
+				4A621B38284E572400F36BCC /* Kanit-ExtraBoldItalic.ttf in Resources */,
+				4A621B31284E572400F36BCC /* Kanit-Light.ttf in Resources */,
+				4A621B33284E572400F36BCC /* Kanit-Regular.ttf in Resources */,
+				4A621B3D284E572400F36BCC /* Kanit-Black.ttf in Resources */,
+				4A621B3C284E572400F36BCC /* Kanit-Bold.ttf in Resources */,
+				4A621B36284E572400F36BCC /* Kanit-Italic.ttf in Resources */,
+				4A621B3F284E572400F36BCC /* Kanit-ExtraLight.ttf in Resources */,
+				4A621B3A284E572400F36BCC /* Kanit-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F7FCFCB39978B24DD63F5A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OH_CAKE_IOS/Pods-OH_CAKE_IOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OH_CAKE_IOS/Pods-OH_CAKE_IOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OH_CAKE_IOS/Pods-OH_CAKE_IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F953756D60A09B953705FE86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OH_CAKE_IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A05491427E25D6300D9EB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4863CF1283F7181008E70B5 /* PedidosViewController.swift in Sources */,
+				F4EA0E63282A55C200E9E71A /* Step2ViewController.swift in Sources */,
+				F486F3A628251549006DD483 /* CategoriasViewController.swift in Sources */,
+				F42BEA502816A62F009E626C /* Step1ViewController.swift in Sources */,
+				F4BC1E7D284F6A8300CCB5CD /* IngredientesCell.swift in Sources */,
+				F4BC1E7B284F580B00CCB5CD /* RellenoCell.swift in Sources */,
+				F4BC1E79284F447D00CCB5CD /* BaseCell.swift in Sources */,
+				F4863CF3283F71A2008E70B5 /* PedidosCell.swift in Sources */,
+				4A0C3FA4282C18E500ED6C74 /* Step4ViewController.swift in Sources */,
+				F4A25B1E2833B34800C38BBE /* TABBARViewController.swift in Sources */,
+				F4CC12EA283CF4220006D948 /* ContactoViewController.swift in Sources */,
+				F4F6835628129D0500A2F67D /* LoginViewController.swift in Sources */,
+				F4A4FEDB27FF0C2C006B7DCD /* OfertasCell.swift in Sources */,
+				F4EA0E69282A937D00E9E71A /* Step3ViewController.swift in Sources */,
+				F4A4FEDD27FF0C43006B7DCD /* MejoresCell.swift in Sources */,
+				F44A6C9B282264FC00B4C67D /* ArtWork.swift in Sources */,
+				F44A6C99282262BB00B4C67D /* MapaViewController.swift in Sources */,
+				4A05492027E25D6300D9EB71 /* ViewController.swift in Sources */,
+				F4EA0E66282A573400E9E71A /* FormaCell.swift in Sources */,
+				F4176AA02851EB8F0008A9BD /* Custom_PedidoCell.swift in Sources */,
+				F476046D2833B9A6005FCE32 /* SelectionViewController.swift in Sources */,
+				F4889DB3284A008F00E316C6 /* CarritoViewController.swift in Sources */,
+				F4863CF8283F9BAF008E70B5 /* TartasCell.swift in Sources */,
+				F46B0727284DF97500AB41C4 /* AllergenCell.swift in Sources */,
+				F49F963C2816876B00DE5880 /* RegistroViewController.swift in Sources */,
+				F47CB6F3282900DB002CA287 /* CategoriasCell.swift in Sources */,
+				F4E68781282CF5D50071D3A2 /* Step5ViewController.swift in Sources */,
+				F4863CF6283F9B03008E70B5 /* TartasViewController.swift in Sources */,
+				F44AC5D128326E6200F44F75 /* FinalStepViewController.swift in Sources */,
+				4A05491C27E25D6300D9EB71 /* AppDelegate.swift in Sources */,
+				F48BB7EA28475C48008AF047 /* TartaCell.swift in Sources */,
+				F4A1506E2846200A001929B7 /* UnaTartaViewController.swift in Sources */,
+				F4889DB5284A016C00E316C6 /* ProductoCell.swift in Sources */,
+				F4A25B1C2833B30300C38BBE /* LogedUserViewController.swift in Sources */,
+				4A05491E27E25D6300D9EB71 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A05492127E25D6300D9EB71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A05492227E25D6300D9EB71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A05492627E25D6800D9EB71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A05492727E25D6800D9EB71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A05492A27E25D6800D9EB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A05492B27E25D6800D9EB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A05492D27E25D6800D9EB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A45E3760059D57723B8748A /* Pods-OH_CAKE_IOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DTLRHN6WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OH_CAKE_IOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EstechA.OH-CAKE-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A05492E27E25D6800D9EB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B899825D28F01247DDD2317A /* Pods-OH_CAKE_IOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DTLRHN6WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OH_CAKE_IOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EstechA.OH-CAKE-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A05491327E25D6300D9EB71 /* Build configuration list for PBXProject "OH_CAKE_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A05492A27E25D6800D9EB71 /* Debug */,
+				4A05492B27E25D6800D9EB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A05492C27E25D6800D9EB71 /* Build configuration list for PBXNativeTarget "OH_CAKE_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A05492D27E25D6800D9EB71 /* Debug */,
+				4A05492E27E25D6800D9EB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A05491027E25D6300D9EB71 /* Project object */;
+}
